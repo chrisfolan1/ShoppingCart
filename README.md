@@ -22,5 +22,16 @@ Simple shopping cart emulator incorprating discounts and special offers.
   
 # TODO
 
+  The present version of the code has the Catalogue and Discounts hard-wired in the main scipt.
+  Future versions will have these as separate configurable modules.
   
+  The test_special_offers() test method is written to support "Bonus Question 2"
+  -- Buy any 3 of Shampoo (Small), Shampoo (Medium) and Shampoo (Large), and you get the cheapest one for free.
+  
+  The special_offers flag is used to trigger whether the special offers are to be applied or not:
+  
+          subtot, disc, tot = cart.getTotal(special_offers = True)
+
+  
+
 
